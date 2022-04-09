@@ -10,7 +10,7 @@ weight: 2110
 
 ---
 
-Fluent Operator, formerly known as Fluentbit-operator, is donated by the KubeSphere community and accepted as a sub-project of the Fluent community. It collect logs from each node via the Fluent Bit DaemonSet, which then forwards the logs to Fluentd for aggregation and forwarding to its sinks such as ElasticSearch, Kafka, Loki, S3, Splunk, or other log analysis tools.
+Fluent Operator, formerly known as Fluentbit-operator, is donated by the KubeSphere community and accepted as a sub-project of the Fluent community. It collects logs from each node via the Fluent Bit DaemonSet, which then forwards the logs to Fluentd for aggregation and forwarding to its sinks such as ElasticSearch, Kafka, Loki, S3, Splunk, or other log analysis tools.
 
 Fluent Bit is a good choice as a logging agent because it is lightweight and efficient, while Fluentd is more powerful to perform advanced processing of logs because of its rich plugins. Although both Fluent Bit and Fluentd are able to collect, parse, filter and then forward logs to the final sinks, Fluent Operator provides feature-rich plugins for both Fluent Bit and Fluentd, which automates the setup and allows you to use  Fluent Bit and Fluentd as you like. The following three modes are supported:
 
@@ -25,11 +25,11 @@ Fluent Bit will be deployed as a DaemonSet while Fluentd will be deployed as a S
 
 - Input and forward
 
-  When Fluent Bit and Fluentd are separately deployed, you can collect logs by using input plugins of Fluent Bit and forward and http plugins. When both Fluent Bit and Fluentd are deployed, Fluent Bit collects and forwards logs on each node.
+  When Fluent Bit and Fluentd are separately deployed, you can collect logs by using input plugins of Fluent Bit. When both Fluent Bit and Fluentd are deployed, Fluent Bit collects on each node and forwards logs.
 
 - Filter
 
-  As collected logs usually contain redundant information, it is necessary that the log processing tools are capable of filtering redundant information. Both Fluent Bit and Fluentd support filter plugins, so that you can view only the information that interests you.
+  As collected logs usually contain redundant information, it is necessary that the log processing tools are capable of filtering redundant information. Both Fluent Bit and Fluentd support filter plugins, so that you can view only the information that interests you.Because of fluentd's rich plugins, it can handle more complex logs, so if you need to handle complex logs, it is recommended to enable fluentd and use its rich plugins.
 
 - Output
 

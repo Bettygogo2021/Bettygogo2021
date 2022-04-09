@@ -61,3 +61,6 @@ kubectl apply -f manifests/logging-stack/output-elasticsearch.yaml
   ```
   
   
+//NOTE
+
+// Since fluentd was added, this article is inappropriate and fluentd should be added. you can refer to https://github.com/kubesphere-sigs/fluent-operator-walkthrough. I will update the relevant section and perhaps modify it after discussion.

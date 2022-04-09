@@ -29,13 +29,13 @@ The default runtime is docker, but you can also choose other runtimes.
 - If your container runtime is `containerd`:
 
 ```bash
-helm install fluent-operator --create-namespace -n kubesphere-logging-system charts/fluent-operator/  --set containerRuntime=containerd
+helm install fluent-operator --create-namespace -n fluent charts/fluent-operator/  --set containerRuntime=containerd
 ```
 
 - If your container runtime is `cri-o`:
 
 ```bash
-helm install fluent-operator --create-namespace -n kubesphere-logging-system charts/fluent-operator/  --set containerRuntime=crio
+helm install fluent-operator --create-namespace -n fluent charts/fluent-operator/  --set containerRuntime=crio
 ```
 
 Run the following command to install Fluent Operator:

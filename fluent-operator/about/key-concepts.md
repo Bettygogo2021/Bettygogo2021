@@ -15,7 +15,7 @@ The following explains key concepts used in Fluent Operator.
 
 ## Concepts for Fluentd
 
-- **`Fluentd`**: Defines the Fluentd Statefulset and its configs. A custom Fluentd image `kubesphere/fluentd` is required to work with Fluentd Operator for dynamic configuration reloading.
+- **`Fluentd`**: Defines the Fluentd Statefulset. A custom Fluentd image `kubesphere/fluentd` is required to work with Fluentd Operator for dynamic configuration reloading.
 - **`FluentdConfig`**: Selects cluster-level or namespace-level input/filter/output plugins and generates the final config into a Secret.
 - **`ClusterFluentdConfig`**: Selects cluster-level input/filter/output plugins and generates the final config into a Secret.
 - **`Filter`**: Defines namespace-level filter config sections.
@@ -25,7 +25,7 @@ The following explains key concepts used in Fluent Operator.
 
 ## Concepts for Fluent Bit
 
-- **`FluentBit`**: Defines the Fluent Bit DaemonSet and its configs. A custom Fluent Bit image `kubesphere/fluent-bit` is required to work with FluentBit Operator for dynamic configuration reloading.
+- **`FluentBit`**: Defines the Fluent Bit DaemonSet. A custom Fluent Bit image `kubesphere/fluent-bit` is required to work with FluentBit Operator for dynamic configuration reloading.
 - **`ClusterFluentBitConfig`**: Selects cluster-level input/filter/output plugins and generates the final config into a Secret.
 - **`ClusterInput`**: Defines cluster-level input config sections.
 - **`clusterParser`**: Defines cluster-level parser config sections.

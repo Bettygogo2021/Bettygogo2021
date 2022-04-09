@@ -20,6 +20,9 @@ Fluent Operator adopts the following convention internally.
 | /fluent-bit/secrets/{secret_name} | Stores Secrets , for example,  TLS files. Specify Secrets to mount in [fluentbit.spec.secrets](https://github.com/fluent/fluent-operator/blob/master/docs/fluentbit.md#fluentbitspec), then you have access. |
 | /fluent-bit/config                | Stores the main config file and user-defined parser config file. |
 
+//TODO
+
+//This path mount only contains fluentbit, we need to add the mount path of fluentd.
 
 <Notice type='note'>
 
