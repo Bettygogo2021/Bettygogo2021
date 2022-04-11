@@ -29,7 +29,7 @@ Fluent Bit will be deployed as a DaemonSet while Fluentd will be deployed as a S
 
 - Filter
 
-  As collected logs usually contain redundant information, it is necessary that the log processing tools are capable of filtering redundant information. Both Fluent Bit and Fluentd support filter plugins, so that you can view only the information that interests you.Because of fluentd's rich plugins, it can handle more complex logs, so if you need to handle complex logs, it is recommended to enable fluentd and use its rich plugins.
+  As collected logs usually contain redundant information, it is necessary that the log processing tools are capable of filtering redundant information. Both Fluent Bit and Fluentd support filter plugins, so that you can view only the information that interests you.Because of Fluentd's rich plugins, it can handle more complex logs, so if you need to handle complex logs, enabling Fluentd is recommended.
 
 - Output
 
