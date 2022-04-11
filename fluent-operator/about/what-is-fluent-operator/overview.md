@@ -25,7 +25,7 @@ Fluent Bit will be deployed as a DaemonSet while Fluentd will be deployed as a S
 
 - Input and forward
 
-  When Fluent Bit and Fluentd are separately deployed, you can collect logs by using input plugins of Fluent Bit. When both Fluent Bit and Fluentd are deployed, Fluent Bit collects on each node and forwards logs.
+  When Fluent Bit and Fluentd are separately deployed, you can collect logs by using input plugins of Fluent Bit. When both Fluent Bit and Fluentd are deployed, Fluent Bit collects logs on each node, and then forwards the logs.
 
 - Filter
 
