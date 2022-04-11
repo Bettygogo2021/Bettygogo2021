@@ -15,22 +15,22 @@ This section instructs you to upgrade and uninstall Fluent Operator.
 
 Now, Fluent Operator 1.0.0 has been released. If you are still using an earlier version, run the following command to upgrade to the latest version:
 
-If your container runtime is `docker`, run the follwing command:
+If your container runtime is `docker`, run the following command:
 
 ```bash
-helm upgrade fluent-operator --create-namespace -n kubesphere-logging-system charts/fluent-operator/  --set Kubernetes=true,containerRuntime=docker
+helm upgrade fluent-operator --create-namespace -n fluent charts/fluent-operator/  --set Kubernetes=true,containerRuntime=docker
 ```
 
-If your container runtime is `containerd`, run the follwing command:
+If your container runtime is `containerd`, run the following command:
 
 ```bash
-helm upgrade fluent-operator --create-namespace -n kubesphere-logging-system charts/fluent-operator/  --set Kubernetes=true,containerRuntime=containerd
+helm upgrade fluent-operator --create-namespace -n fluent charts/fluent-operator/  --set Kubernetes=true,containerRuntime=containerd
 ```
 
-If your container runtime is `cri-o`, run the follwing command:
+If your container runtime is `cri-o`, run the following command:
 
 ```bash
-helm upgrade fluent-operator --create-namespace -n kubesphere-logging-system charts/fluent-operator/  --set Kubernetes=true,conta
+helm upgrade fluent-operator --create-namespace -n fluent charts/fluent-operator/  --set Kubernetes=true,conta
 ```
 
 

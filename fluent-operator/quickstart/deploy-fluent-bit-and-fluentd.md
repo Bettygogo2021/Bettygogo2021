@@ -58,7 +58,7 @@ spec:
   - forward: 
       bind: 0.0.0.0
       port: 24224
-  replicas: 3
+  replicas: 1
   image: kubesphere/fluentd:v1.14.4
   fluentdCfgSelector: 
     matchLabels:

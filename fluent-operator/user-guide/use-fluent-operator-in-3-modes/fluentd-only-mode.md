@@ -71,7 +71,7 @@ metadata:
   name: fluentd-only-stdout
   namespace: fluent
   labels:
-    output.fluentd.fluent.io/enabled: "true"
+    output.fluentd.fluent.io/mode: "true"
     output.fluentd.fluent.io/enabled: "true"
 spec: 
   outputs: 

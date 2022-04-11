@@ -9,4 +9,4 @@ weight: 4000
 
 ---
 
-This section instructs you to install Fluent Bit, Fluentd, and Fluent Operator and use Fluent Operator to collect logs.
+This section instructs you to install Fluent Bit, Fluentd, and Fluent Operator  to collect logs.
